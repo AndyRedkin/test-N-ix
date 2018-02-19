@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="1136px" viewBox="0 0 640 1136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="100%" cy="53.8792816%" fx="100%" fy="53.8792816%" r="43.3307965%" gradientTransform="translate(1.000000,0.538793),scale(1.000000,0.563380),rotate(90.000000),scale(1.000000,0.720462),translate(-1.000000,-0.538793)" id="radialGradient-1">
+            <stop stop-color="#A323A8" stop-opacity="0.366310009" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.0381850091" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="8.68977287%" cy="10.3926758%" fx="8.68977287%" fy="10.3926758%" r="38.1630009%" gradientTransform="translate(0.086898,0.103927),scale(1.000000,0.563380),rotate(90.000000),translate(-0.086898,-0.103927)" id="radialGradient-2">
+            <stop stop-color="#6E766A" offset="0%"></stop>
+            <stop stop-color="#2D1B3A" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-3" x="0" y="0" width="640" height="1136"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <rect id="Rectangle" fill="#2A1A3A" x="0" y="0" width="640" height="1136"></rect>
+            <g id="Rectangle">
+                <use fill="url(#radialGradient-1)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.529999971" fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                <use fill="url(#radialGradient-1)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

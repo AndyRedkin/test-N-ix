@@ -20,9 +20,12 @@ a {
 }
 
 body {
-  background: #2c1b3b;
-  //background-image: url("../img/body.svg");
   font-size: 16px;
+}
+.body__background{
+  overflow: hidden;
+  background: url("../img/Artboard.svg");
+  background-size: cover;
 }
 
 #app {

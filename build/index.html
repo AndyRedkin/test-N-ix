@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<div id="app">
+    <form class="registration">
+        <div class="flex__row content__center registration__title">
+            <a href="#" class="link">
+                <img src="img/logo.png" alt="Capturelife">
+            </a>
+        </div>
+        <div class="flex__row form__field">
+            <input type="text" class="form"
+                   placeholder="name or email"
+                   v-model="user.name">
+        </div>
+        <div class="flex__row form__field">
+            <input type="password" class="form"
+                   placeholder="password"
+                   v-model="user.password">
+        </div>
+        <div class="flex__row content__space-between align__center registration__remember">
+            <label class="checkbox__container">
+                <input type="checkbox" v-model="rememberMe">
+                <span class="checkbox">
+                                remember me
+                            </span>
+            </label>
+            <div class="btn__container btn__container--inline">
+                <a href="#" class="link link__forgot-password">
+                    forgot your password
+                </a>
+            </div>
+        </div>
+        <div class="btn__container content__center">
+            <button class="btn btn__login" type="submit" @click.prevent="logIn()">
+                Log in
+            </button>
+        </div>
+        <div class="flex__row content__center registration__divider">
+            Or sign up with your social accounts
+        </div>
+        <div class="btn-social__container">
+            <button class="btn-social btn-social__with-addon">
+                <i class="fab fa-facebook-f btn-social__addon"></i>
+                Sign Up with Facebook
+            </button>
+            <button class="btn-social btn-social__with-addon">
+                <i class="fab fa-google-plus-g btn-social__addon"></i>
+                Sign Up with Google
+            </button>
+        </div>
+    </form>
+</div>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

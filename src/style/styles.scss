@@ -1,0 +1,69 @@
+@import "abstracts/mixin";
+@import "abstracts/fonts";
+
+@import "components/checkbox";
+@import "components/input";
+@import "components/buttons";
+
+@import "abstracts/globalfix";
+
+/**/
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  background: #2c1b3b;
+  //background-image: url("../img/body.svg");
+  font-size: 16px;
+}
+
+#app {
+  @include flexbox();
+  width: 100%;
+  height: 100%;
+}
+
+.flex__row {
+  @include flexbox();
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.registration {
+  width: 453px;
+  margin: 5% auto;
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__remember {
+    margin: 10px 0 30px;
+    font-size: 16px;
+    color: #fff;
+  }
+  &__divider{
+    margin: 30px 0 20px;
+    font-size: 22px;
+    color: #fff;
+  }
+  .btn-social{
+    font-size: 22px;
+    color: #fff;
+    &:first-child{
+      margin-bottom: 20px;
+    }
+  }
+  .link {
+    color: #fff;
+    &__forgot-password{
+     text-decoration: underline;
+    }
+  }
+}

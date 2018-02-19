@@ -1,0 +1,8 @@
+This test task is pretty simple:
+
+1. You should layout PSD to html, using HTML5, CSS3 (all non-standarts fonts - on folder "fonts")
+2. Social icons should be taken from https://fontawesome.com/icons
+3. After layout - you need add script for find user in the JSON file (users.json)
+4. If user is exist - should shown alert window with message "Welcome, @user"
+5. If not - should shown alert window with message "Access denied"
+6. Project should be build with Gulp

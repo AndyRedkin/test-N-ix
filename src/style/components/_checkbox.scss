@@ -1,0 +1,37 @@
+/*---CHECKBOX---*/
+.checkbox {
+  margin: 0;
+  font-weight: normal;
+  line-height: normal;
+  &:before {
+    content: "";
+    position: relative;
+    @include inline-flex();
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url('../img/checkbox.png')
+  }
+  &__container {
+    position: relative;
+    @include inline-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    padding-right: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    input[type="checkbox"] {
+      display: none;
+      &:checked + .checkbox:before {
+        content: "";
+        @include inline-flex();
+        width: 24px;
+        height: 24px;
+        background: url('../img/checkbox-checked.png')
+      }
+    }
+  }
+}
+
+/*---END CHECKBOX---*/
